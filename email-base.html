@@ -8,7 +8,6 @@
 	<style type="text/css">
 
 		/* Reset styles for email clients */
-		
 		a img{border:0 none;}
 
 		a[href^="tel"], a[href^="sms"] {text-decoration:none; color:#333 !important; pointer-events:auto; cursor:default;} /* Phone link, use as wrapper on phone numbers */
@@ -37,6 +36,18 @@
 
 		/* General email styles */
 		
+
+		/* Mobile specific styles */
+		@media screen and (max-width: 480px) {
+			/* Reset styles */
+
+
+			/* Client specific styles */
+			body{width: 100% !important; min-width: 100% !important;} /* Forces iOS Mail to render the email at full width */
+
+			/* General email styles */
+
+		}
 
 	</style>
 
