@@ -1,2 +1,3 @@
-# Synchrony-Email-Templates
-Synchrony email templates for development use.
+# Marketplace Email Templates
+
+This repository contains the email templates for Marketplace such as Envento, Theme Forest, etc.
